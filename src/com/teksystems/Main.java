@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 //        problemOne();
 //        problemTwo();
-        problemThree();
+//        problemThree();
         problemFour();
         problemFive();
         problemSix();
@@ -83,6 +83,23 @@ public class Main {
         Notice the type of exception which is produced.
         Now try to assign a value to the array index 5.
         You should get the same type of exception.*/
+
+        //declare array
+        Integer[] arr = {6, 20, 9, 11, 14};
+
+        //print value at first index and last index
+        System.out.println(arr[0]);
+        System.out.println(arr[arr.length-1]);
+
+        //print value at index = length
+        System.out.println(arr[arr.length]);
+        //gives error: Array index is out of bounds
+
+        //assign value to array at index 5
+        arr[5] = 44;
+        System.out.println(arr[5]);
+        //gives error: arr[5] is out of bounds
+
     }
 
     public static void problemFive () {
