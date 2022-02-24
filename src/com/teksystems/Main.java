@@ -10,7 +10,7 @@ public class Main {
 //        problemTwo();
 //        problemThree();
 //        problemFour();
-        problemFive();
+//        problemFive();
         problemSix();
         problemSeven();
         problemEight();
@@ -122,6 +122,17 @@ public class Main {
     public static void problemSix () {
         /*Write a program where you create an integer array of 5 numbers.
         Loop through the array and assign the value of the loop control variable multiplied by 2 to the corresponding index in the array.*/
+
+        //declare array
+        Integer[] arr = new Integer[5];
+
+        //loop through array and assign values
+        for(int i = 0; i < arr.length; i++){
+            arr[i] = i * 2;
+        }
+
+        //print out array
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void problemSeven () {
