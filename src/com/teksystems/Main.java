@@ -12,7 +12,7 @@ public class Main {
 //        problemFour();
 //        problemFive();
 //        problemSix();
-        problemSeven();
+//        problemSeven();
         problemEight();
         problemNine();
         problemTen();
@@ -153,6 +153,17 @@ public class Main {
     public static void problemEight () {
         /*Write a program that creates a String array of 5 elements and
         swaps the first element with the middle element without creating a new array.*/
+
+        //declare array
+        Integer[] arr = {10, 20, 30, 40, 50};
+        System.out.println(Arrays.toString(arr));
+
+        //swap first element: index [0] with middle element: index [2]
+        int x = arr[0];
+        int y = arr[2];
+        arr[0] = y;
+        arr[2] = x;
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void problemNine () {
