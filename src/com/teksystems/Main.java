@@ -11,7 +11,7 @@ public class Main {
 //        problemThree();
 //        problemFour();
 //        problemFive();
-        problemSix();
+//        problemSix();
         problemSeven();
         problemEight();
         problemNine();
@@ -138,6 +138,16 @@ public class Main {
     public static void problemSeven () {
         /*Write a program where you create an array of 5 elements.
         Loop through the array and print the value of each element, except for the middle (index 2) element.*/
+
+        //declare array
+        Integer[] arr = {10, 20, 30, 40, 50};
+
+        //loop through array and print each element except for middle element
+        for(int i = 0; i < arr.length; i++) {
+            if (i !=  arr.length/2){
+                System.out.println(arr[i]);
+            }
+        }
     }
 
     public static void problemEight () {
