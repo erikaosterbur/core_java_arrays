@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        problemOne();
+//        problemOne();
         problemTwo();
         problemThree();
         problemFour();
@@ -36,6 +36,23 @@ public class Main {
     public static void problemTwo () {
         /*Write a program that returns the middle element in an array.
         Give the following values to the integer array: {13, 5, 7, 68, 2} and produce the following output: 7 */
+
+        //declare array
+        Integer[] arr = new Integer[5];
+
+        //assign values to array
+        arr[0] = 13;
+        arr[1] = 5;
+        arr[2] = 7;
+        arr[3] = 68;
+        arr[4] = 2;
+
+        //find middle index value
+        int mid = arr.length / 2;
+
+        //print middle value
+        System.out.println(arr[mid]);
+
     }
 
     public static void problemThree () {
