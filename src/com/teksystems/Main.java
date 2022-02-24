@@ -1,12 +1,13 @@
 package com.teksystems;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
 //        problemOne();
-        problemTwo();
+//        problemTwo();
         problemThree();
         problemFour();
         problemFive();
@@ -57,8 +58,21 @@ public class Main {
 
     public static void problemThree () {
         /*Write a program that creates an array of String type and initializes it with the strings “red”, “green”, “blue” and “yellow”.
-        Print out the array length. Make a copy using the clone( ) method.
+        Print out the array length.
+        Make a copy using the clone( ) method.
         Use the Arrays.toString( ) method on the new array to verify that the original array was copied. */
+
+        //declare array and assign values
+        String[] arr = {"red", "green", "blue", "yellow"};
+
+        //print out array length
+        System.out.println(arr.length);
+
+        //make a copy
+        String[] arrTwo = arr.clone();
+
+        //print new array
+        System.out.println(Arrays.toString(arrTwo));
     }
 
     public static void problemFour () {
