@@ -13,7 +13,7 @@ public class Main {
 //        problemFive();
 //        problemSix();
 //        problemSeven();
-        problemEight();
+//        problemEight();
         problemNine();
         problemTen();
     }
@@ -173,6 +173,15 @@ public class Main {
             Array in ascending order: 0, 1, 2, 4, 9, 13
             The smallest number is 0
             The biggest number is 13*/
+
+        //declare array
+        Integer[] arr = {4, 2, 9, 13, 1, 0};
+
+        //sort array in ascending order
+        Arrays.sort(arr);
+
+        //print array
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void problemTen () {
