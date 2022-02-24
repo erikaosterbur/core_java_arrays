@@ -1,5 +1,7 @@
 package com.teksystems;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,6 +20,17 @@ public class Main {
     public static void problemOne () {
         /*Write a program that creates an array of integers with a length of 3.
         Assign the values 1, 2, and 3 to the indexes. Print out each array element.*/
+
+        //declare array
+        Integer[] arr = new Integer[3];
+
+        //assign values to array
+        arr[0] = 1;
+        arr[1] = 2;
+        arr[2] = 3;
+
+        //print out array
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void problemTwo () {
