@@ -6,14 +6,14 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-//        problemOne();
-//        problemTwo();
-//        problemThree();
-//        problemFour();
-//        problemFive();
-//        problemSix();
-//        problemSeven();
-//        problemEight();
+        problemOne();
+        problemTwo();
+        problemThree();
+        problemFour();
+        problemFive();
+        problemSix();
+        problemSeven();
+        problemEight();
         problemNine();
         problemTen();
     }
@@ -185,8 +185,13 @@ public class Main {
     }
 
     public static void problemTen () {
-        /*Create an array that includes an integer, 3 strings, and 1 double. Print the array.*/
+        /*Create an array that includes an integer, 3 strings, and 1 double.
+        Print the array.*/
+
+        //declare array as an object and assign values
+        Object[] arr = {9, "Sue", "Jill", "Pam", 7.8};
+
+        //print array
+        System.out.println(Arrays.toString(arr));
     }
-
-
 }
